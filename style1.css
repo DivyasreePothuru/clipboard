@@ -110,6 +110,49 @@ button:nth-child(2){
     opacity:0.5;
 }
 
+.sectiontwo{
+    height: 100%;
+    width: 100%;
+    
+margin-top: 30px;
+}
+
+.sectiontwo-title, .sectiontwo-heading{
+
+    height: 12.5%;
+    text-align: center;
+opacity: 1;
+}
+
+
+.sectiontwo-title p{
+
+    opacity: 0.5;
+    padding: 2px;
+}
+
+.devices{
+
+    height: 25%;
+margin-left: 25px;
+}
+
+.sectiontwo-logo{
+height: 50%;
+margin: 20px;
+}
+
+.sectiontwo-logo1,.sectiontwo-logo2,.sectiontwo-logo3{
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.sectiontwo-logo1 h4,.sectiontwo-logo2 h4,.sectiontwo-logo3 h4{
+    margin: 15px;
+}
+
+
 @media screen and (min-width:992px) {
 
 .header-buttons{
@@ -191,4 +234,25 @@ margin-top: 20px;
    
 }
 
+.sectiontwo-title p{
+
+    width: 65%;
+    margin: 0 auto;
+}
+
+.devices{
+width: 35%;
+    margin-left: 30%;
+}
+
+.sectiontwo-logo{
+
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.sectiontwo-heading p,.sectiontwo-logo p{
+    opacity: 0.5;
+}
 }
